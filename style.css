@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: "Oswald", serif;
+    /* background: url(header.jpg) no-repeat center center fixed; alternative way of above*/
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    }
+
+
+h1 {
+    font-size:4rem;
+    color: white; 
+}
+
+hr {
+    height:3px;
+    background-color:#F05F44;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 130px;
+    border-radius: 20px;
+    /* margin-left: 2rem; */
+}
+
+.btn {
+    padding: 1rem 2rem ;
+    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #F05F44;
+    border-color: #F05F44;
+    transition:1s;
+    margin-top: 15rem;
+}
+
+
+.btn:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    transform: scale(1.1);
+}
+
+.container {
+    height: 100%;
+    width: 120%;
+}
